@@ -1,0 +1,19 @@
+<svg width="21" height="22" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(77 -4574)">
+<g id="Group 2">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -77 4574L -56 4574L -56 4596L -77 4596L -77 4574Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame" clip-path="url(#clip-0)">
+<g id="Facebook">
+<use xlink:href="#path0_fill" transform="translate(-71 4574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.9453 4.2607C 1.9453 4.81511 1.9453 7.28967 1.9453 7.28967L -3.83138e-08 7.28967L -3.83138e-08 10.9935L 1.9453 10.9935L 1.9453 22L 5.94137 22L 5.94137 10.9938L 8.62291 10.9938C 8.62291 10.9938 8.87405 9.21785 8.99579 7.27601C 8.64677 7.27601 5.95648 7.27601 5.95648 7.27601C 5.95648 7.27601 5.95648 5.12124 5.95648 4.74355C 5.95648 4.36504 6.39217 3.8559 6.82279 3.8559C 7.25261 3.8559 8.15978 3.8559 9 3.8559C 9 3.35162 9 1.60921 9 1.3233e-08C 7.87833 1.3233e-08 6.60224 1.3233e-08 6.03974 1.3233e-08C 1.84652 -0.000255734 1.9453 3.70726 1.9453 4.2607Z"/>
+</defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="21" height="22" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(77 -4634)">
+<g id="Group 2">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -77 4634L -56 4634L -56 4656L -77 4656L -77 4634Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame" clip-path="url(#clip-0)">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 -56 4636)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 14.2336 6.14963C 13.5068 5.36366 13.0707 4.50624 13.5794 3.86317C 14.6696 2.43413 16.8501 -1.63862 18.7398 0.719289C 19.612 1.71962 20.5568 3.0772 20.5568 3.0772C 20.5568 3.0772 21.0656 3.50591 20.9929 4.36333C 20.8475 10.794 9.80002 19.1539 3.47678 17.8677C 2.67729 17.6534 2.31388 17.0818 2.31388 17.0818C 2.31388 17.0818 1.22367 15.8671 0.424178 14.7953C -1.39285 12.3659 3.11337 11.2942 4.78504 10.6511C 5.51185 10.2938 6.31134 10.8655 6.89278 11.7943C 8.27372 13.9379 15.9779 8.00738 14.2336 6.14963Z"/>
+</defs>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="20" height="18" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bul&#39;do</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1489 -5281)">
+<g id="bul&#39;do">
+<g id="Path">
+<use xlink:href="#path0_fill" transform="translate(-1486 5293.25)" fill="#999999"/>
+</g>
+<g id="Path">
+<use xlink:href="#path1_fill" transform="translate(-1489 5281.01)" fill="#999999"/>
+</g>
+<g id="Path">
+<use xlink:href="#path2_fill" transform="translate(-1478 5285)" fill="#999999"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 2.79837 0C 4.34386 0 5.59673 1.28775 5.59673 2.87627C 5.59673 4.46479 4.34386 5.75254 2.79837 5.75254C 1.25287 5.75254 0 4.46479 0 2.87627C 0 1.28775 1.25287 0 2.79837 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 7.57219 6.02643C 6.47815 7.92137 4.01235 8.54593 2.06466 7.42143C 0.116972 6.29693 -0.575046 3.8492 0.518994 1.95427C 1.61303 0.0593349 4.07884 -0.565226 6.02653 0.559271C 7.97421 1.68377 8.66623 4.1315 7.57219 6.02643Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0.566846 6.58208C -0.628066 4.51243 0.127757 1.83901 2.25502 0.610837C 4.38229 -0.617341 7.07545 0.0648055 8.27036 2.13445C 9.46527 4.2041 8.70945 6.87752 6.58218 8.1057C 4.45492 9.33387 1.76176 8.65173 0.566846 6.58208Z"/>
+</defs>
+</svg>

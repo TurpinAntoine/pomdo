@@ -1,0 +1,18 @@
+<svg width="16" height="17" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>profil</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1452 -5281)">
+<g id="profil">
+<g id="Rectangle 7">
+<use xlink:href="#path0_fill" transform="translate(-1452 5290)" fill="#999999"/>
+</g>
+<g id="Path">
+<use xlink:href="#path1_fill" transform="translate(-1448 5281)" fill="#999999"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 8C 2.20737e-15 3.58172 3.58172 0 8 0C 12.4183 0 16 3.58172 16 8L 0 8Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 7.48686 6.04101C 6.40514 7.94052 3.96713 8.56659 2.04139 7.43938C 0.115653 6.31216 -0.568565 3.85851 0.513145 1.95899C 1.59486 0.0594783 4.03287 -0.566593 5.95861 0.560624C 7.88435 1.68784 8.56857 4.14149 7.48686 6.04101Z"/>
+</defs>
+</svg>
