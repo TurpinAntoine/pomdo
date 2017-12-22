@@ -41,6 +41,17 @@
         </div>
     </div>
 
+    <audio id="audioSecret" src="../audio/lucile.mp3"></audio>
+
+    <script>
+       var audioSecret = document.getElementById('audioSecret');
+       var playButtonSecret = document.getElementById('playButton');
+
+       playButtonSecret.addEventListener('click', function () {
+           audioSecret.play()
+       })
+    </script>
+
 <!--    <div class="row mixPage invisible" style="margin-left: 33%; margin-top: 40%">
         <div class="col s12">
             <a class="whiteButton" href="home.php" id="perform">Accueil</a>
