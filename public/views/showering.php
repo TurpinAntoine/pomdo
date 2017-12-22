@@ -15,7 +15,7 @@ include "../partials/header.php"
         </div>
     </div>
 
-    <div class="row showeringPage" style="margin-left: 40%; margin-bottom: 40%;">
+    <div id="secretStart" lass="row showeringPage" style="margin-left: 40%; margin-bottom: 40%;">
         <div class="col s4">
             <img src="../images/icons/micro.svg" alt="micro">
         </div>
