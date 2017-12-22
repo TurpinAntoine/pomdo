@@ -9,7 +9,6 @@ window.location.href = 'home.php'
 
 
 
-
 $('.closeTopbar').on('click', function () {
     window.location.href = 'home.php';
 });
@@ -24,6 +23,12 @@ function getCookie(name) {
 
 var cookieColor = getCookie('color');
 var cookieName = getCookie('teamName');
+
+if (cookieColor == undefined) {
+    cookieColor = '#14C7FF';
+}else {
+    $('.headerPerso').css('background-color', cookieColor);
+}
 
 $('.headerPerso').css('background-color', cookieColor);
 $('#textHeaderPerso').text(cookieName);
@@ -145,6 +150,7 @@ $('#badge4').on('click',function() {
 });
 
 //MUSICTYPES
+
 var type1 = document.getElementById('type1');
 var type2 = document.getElementById('type2');
 var type3 = document.getElementById('type3');
@@ -153,100 +159,113 @@ var type5 = document.getElementById('type5');
 var type6 = document.getElementById('type6');
 
 $('#type1').on('click',function () {
-    if (type1.classList.contains('blue')) {
-        $('#type1').addClass('teal');
-        $('#type1').removeClass('blue');
+    if (type1.classList.contains('blueChart')) {
+        $('#type1').removeClass('blueChart');
+        $('#type1').css('background-color', '#FFFFFF');
+        $('#textCard1').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType1').attr('src', '../images/genres/black/tendance.svg');
     } else {
-        $('#type1').removeClass('teal');
-        $('#type1').addClass('blue');
+        $('#type1').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard1').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType1').attr('src', '../images/genres/white/tendance.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
 });
 $('#type2').on('click',function () {
-    if (type2.classList.contains('blue')) {
-        $('#type2').addClass('teal');
-        $('#type2').removeClass('blue');
+    if (type2.classList.contains('blueChart')) {
+        $('#type2').removeClass('blueChart');
+        $('#type2').css('background-color', '#FFFFFF');
+        $('#textCard2').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType2').attr('src', '../images/genres/black/rap.svg');
     } else {
-        $('#type2').removeClass('teal');
-        $('#type2').addClass('blue');
+        $('#type2').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard2').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType2').attr('src', '../images/genres/white/rap.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
 });
 $('#type3').on('click',function () {
-    if (type3.classList.contains('blue')) {
-        $('#type3').addClass('teal');
-        $('#type3').removeClass('blue');
+    if (type3.classList.contains('blueChart')) {
+        $('#type3').removeClass('blueChart');
+        $('#type3').css('background-color', '#FFFFFF');
+        $('#textCard3').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType3').attr('src', '../images/genres/black/reggae.svg');
     } else {
-        $('#type3').removeClass('teal');
-        $('#type3').addClass('blue');
+        $('#type3').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard3').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType3').attr('src', '../images/genres/white/reggae.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
 });
 $('#type4').on('click',function () {
-    if (type4.classList.contains('blue')) {
-        $('#type4').addClass('teal');
-        $('#type4').removeClass('blue');
+    if (type4.classList.contains('blueChart')) {
+        $('#type4').removeClass('blueChart');
+        $('#type4').css('background-color', '#FFFFFF');
+        $('#textCard4').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType4').attr('src', '../images/genres/black/rock.svg');
     } else {
-        $('#type4').removeClass('teal');
-        $('#type4').addClass('blue');
+        $('#type4').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard4').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType4').attr('src', '../images/genres/white/rock.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
 });
 $('#type5').on('click',function () {
-    if (type5.classList.contains('blue')) {
-        $('#type5').addClass('teal');
-        $('#type5').removeClass('blue');
+    if (type5.classList.contains('blueChart')) {
+        $('#type5').removeClass('blueChart');
+        $('#type5').css('background-color', '#FFFFFF');
+        $('#textCard5').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType5').attr('src', '../images/genres/black/pop.svg');
     } else {
-        $('#type5').removeClass('teal');
-        $('#type5').addClass('blue');
+        $('#type5').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard5').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType5').attr('src', '../images/genres/white/pop.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
 });
 $('#type6').on('click',function () {
-    if (type6.classList.contains('blue')) {
-        $('#type6').addClass('teal');
-        $('#type6').removeClass('blue');
+    if (type6.classList.contains('blueChart')) {
+        $('#type6').removeClass('blueChart');
+        $('#type6').css('background-color', '#FFFFFF');
+        $('#textCard6').css('color', 'black');
         $('.musicButtons').addClass('invisible');
         $('#imgType6').attr('src', '../images/genres/black/variete-française.svg');
     } else {
-        $('#type6').removeClass('teal');
-        $('#type6').addClass('blue');
+        $('#type6').addClass('blueChart');
+        $('.blueChart').css('background-color', '#1740FF');
+        $('#textCard6').css('color', 'white');
         $('.musicButtons').removeClass('invisible');
         $('#imgType6').attr('src', '../images/genres/white/variete-française.svg');
     }
-    if(type1.classList.contains('blue') || type2.classList.contains('blue') || type3.classList.contains('blue') || type4.classList.contains('blue') || type5.classList.contains('blue') || type6.classList.contains('blue')) {
+    if(type1.classList.contains('blueChart') || type2.classList.contains('blueChart') || type3.classList.contains('blueChart') || type4.classList.contains('blueChart') || type5.classList.contains('blueChart') || type6.classList.contains('blueChart')) {
         $('.musicButtons').removeClass('invisible');
     }
+
 });
 
 //CREATEGROUPE

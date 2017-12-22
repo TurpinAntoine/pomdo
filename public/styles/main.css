@@ -14,6 +14,14 @@ body {
     src: local('../fonts/bariol/Bariol_Bold.tof'), url("../fonts/bariol/Bariol_Bold.otf") format("opentype");
 }
 
+.blueChart {
+    background-color: #1740FF; !important;
+}
+
+#textCard {
+    color: black;
+}
+
 .headerPerso {
     display: flex;
     justify-content: space-between;
@@ -568,4 +576,9 @@ body {
     width: 380px;
     border-radius: 50px;
     height: 90px;
+}
+
+/*TRAIN*/
+.playerTrain {
+    margin-top: 100px;
 }

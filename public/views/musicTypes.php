@@ -11,39 +11,39 @@ include "../partials/header.php"
 <div class="backgroundFriends">
 <div class="row centered">
     <div class="col s6">
-        <div class="card-panel teal" id="type1" style="border-radius: 10px">
+        <div class="card-panel" id="type1" style="border-radius: 10px">
             <img src="../images/genres/black/tendance.svg" alt="trendy" id="imgType1">
-            <div class="white-text">Tendance</div>
+            <div id="textCard1">Tendance</div>
         </div>
     </div>
     <div class="col s6">
-        <div class="card-panel teal" id="type2" style="border-radius: 10px">
+        <div class="card-panel" id="type2" style="border-radius: 10px">
             <img src="../images/genres/black/rap.svg" alt="rap" id="imgType2">
-            <div class="white-text">Hip-Hop</div>
+            <div id="textCard2">Hip-Hop</div>
         </div>
     </div>
     <div class="col s6">
-        <div class="card-panel teal" id="type3" style="border-radius: 10px">
+        <div class="card-panel" id="type3" style="border-radius: 10px">
             <img src="../images/genres/black/reggae.svg" alt="reggae" id="imgType3">
-            <div class="white-text">Reggae</div>
+            <div id="textCard3">Reggae</div>
         </div>
     </div>
     <div class="col s6">
-        <div class="card-panel teal" id="type4" style="border-radius: 10px">
+        <div class="card-panel" id="type4" style="border-radius: 10px">
             <img src="../images/genres/black/rock.svg" alt="rock" id="imgType4">
-            <div class="white-text">Rock</div>
+            <div id="textCard4">Rock</div>
         </div>
     </div>
     <div class="col s6">
-        <div class="card-panel teal" id="type5" style="border-radius: 10px">
+        <div class="card-panel" id="type5" style="border-radius: 10px">
             <img src="../images/genres/black/pop.svg" alt="pop" id="imgType5">
-            <div class="white-text">Pop</div>
+            <div id="textCard5">Pop</div>
         </div>
     </div>
     <div class="col s6">
-        <div class="card-panel teal" id="type6" style="border-radius: 10px">
+        <div class="card-panel" id="type6" style="border-radius: 10px">
             <img src="../images/genres/black/variete-française.svg" alt="fr" id="imgType6">
-            <div class="white-text">Variété Française</div>
+            <div id="textCard6">Variété Française</div>
         </div>
     </div>
 </div>
