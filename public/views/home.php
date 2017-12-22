@@ -13,7 +13,7 @@ include "../partials/header.php";
 
                 <div class="roundBubble1 " id="bubble1">
                     <img src="../images/membre/Group%202%20(1).png" alt="group" class="imgGroup1">
-                    <div class="white-text" id="teamName">CloClo</div>
+                    <div class="white-text" id="teamName">Dream Team</div>
                 </div>
 
 

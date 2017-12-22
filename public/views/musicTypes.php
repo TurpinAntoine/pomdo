@@ -42,7 +42,7 @@ include "../partials/header.php"
     </div>
     <div class="col s6">
         <div class="card-panel" id="type6" style="border-radius: 10px">
-            <img src="../images/genres/black/variete-française.svg" alt="fr" id="imgType6">
+            <img src="../images/genres/black/variete-francaise.svg" alt="fr" id="imgType6">
             <div id="textCard6">Variété Française</div>
         </div>
     </div>
